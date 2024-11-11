@@ -88,17 +88,20 @@ export default function Intro() {
 
           <a className="bg-white p-4 text-gray-700 flex 
         items-center gap-2 rounded-full focus:scale-110 
-        hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border 
+        hover:scale-110 active:scale-105 hover:text-blue-600 transition cursor-pointer border 
         border-black/10" href="https://www.linkedin.com/in/coste-ionut-7531312bb/" target="_blank" rel="noopener">
               <BsLinkedin />
           </a>
 
-          <a className="bg-white p-4 text-gray-700 flex 
-        items-center gap-2 rounded-full focus:scale-110 
-        hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border 
-        border-black/10"
-        href="https://github.com/ionutpetru4046" target="_blank" rel="noopener">
-              <FaGithubSquare />
+          <a 
+             className="bg-white p-4 text-gray-700 flex 
+             items-center gap-2 rounded-full focus:scale-110 
+             hover:scale-110 active:scale-105 hover:text-red-600 transition 
+             cursor-pointer border border-black/10"
+             href="https://github.com/ionutpetru4046" 
+             target="_blank" rel="noopener"
+          >
+            <FaGithubSquare />
           </a>
        </motion.div>
     </section>
