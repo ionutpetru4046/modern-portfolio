@@ -81,17 +81,23 @@ export default function Intro() {
 
         <a className="group bg-white px-7 py-3 flex 
         items-center gap-2 rounded-full outline-none focus:scale-110 
-        hover:scale-110 active:scale-105 transition cursor-pointer" href="/Resume.pdf" download>
+        hover:scale-110 active:scale-105 transition cursor-pointer border 
+        border-black/10" href="/Resume.pdf" download>
           Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
 
-          <a className="bg-white p-4 text-gray-700 flex items-center 
-          gap-2 rounded-full">
+          <a className="bg-white p-4 text-gray-700 flex 
+        items-center gap-2 rounded-full focus:scale-110 
+        hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border 
+        border-black/10" href="https://www.linkedin.com/in/coste-ionut-7531312bb/" target="_blank" rel="noopener">
               <BsLinkedin />
           </a>
 
-          <a className="bg-white p-4 text-gray-700 flex items-center 
-          gap-2 text-[1.25rem] rounded-full">
+          <a className="bg-white p-4 text-gray-700 flex 
+        items-center gap-2 rounded-full focus:scale-110 
+        hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border 
+        border-black/10"
+        href="https://github.com/ionutpetru4046" target="_blank" rel="noopener">
               <FaGithubSquare />
           </a>
        </motion.div>
