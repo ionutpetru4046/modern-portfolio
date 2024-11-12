@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({ title, description, tags, imageUrl }: 
+export default function Project({ title, description, tags, imageUrl, link }: 
 ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
@@ -48,7 +48,12 @@ ProjectProps) {
                 ))}
             </ul>
         </div>
-
+        
+        <a 
+        href={link} 
+        target="_blank" 
+        rel="noopener noreferrer">
+            
         <Image 
         src={imageUrl} 
         alt="Project I worked on" 
@@ -67,6 +72,7 @@ ProjectProps) {
 
         group-even:right-[initial] 
         group-even:-left-40' />
+         </a>
         </section>
        </motion.div>
     );
