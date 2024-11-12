@@ -53,10 +53,10 @@ ProjectProps) {
         href={link} 
         target="_blank" 
         rel="noopener noreferrer">
-            
+
         <Image 
         src={imageUrl} 
-        alt="Project I worked on" 
+        alt="Projects" 
         quality={95} 
         className='absolute top-8 -right-40 w-[28.25rem] 
         rounded-t-lg shadow-2xl 
