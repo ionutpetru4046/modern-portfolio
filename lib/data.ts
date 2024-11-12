@@ -71,12 +71,12 @@ export const projectsData = [
     link: "https://ionutpetru4046.github.io/ecommerce/index.html",
   },
   {
-    title: "React.js Task Tracker App",
+    title: "Restaura",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
     imageUrl: project6,
-    link: "https://ionutpetru4046.github.io/Task-Tracker-react.js/",
+    link: "https://restaura-landing-page-website-gu6c5it42.vercel.app/",
   },
 ] as const;
 
