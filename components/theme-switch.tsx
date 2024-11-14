@@ -26,8 +26,13 @@ export default function ThemeSwitch() {
 
         if (localTheme) {
             setTheme(localTheme);
+
+            if (localTheme === "Dark") {
+                document.documentElement.classList.add("dark");
+            }
         } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             setTheme("Dark");
+            document.documentElement.classList.add("dark");
         }
     }, []);
 
