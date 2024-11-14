@@ -1,4 +1,4 @@
-@tailwind base;
+@tailwind base; /* Ensure this line is present */
 @tailwind components;
 @tailwind utilities;
 
