@@ -20,20 +20,18 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Information of Technology</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">Frontend web Development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, GitHub
+          React.js, Next.js, Node.js
         </span>
-        . I am also familiar with TypeScript and TailwindCSS. I am always looking to
+        . I am also familiar with Typescript and Tailwind CSS. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Frontend
+        <span className="font-medium">Full-Time Position</span> as a Frontend Web
         Developer.
         </p>
 
@@ -42,7 +40,7 @@ export default function About() {
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning Back-End Development{" "}
-        <span className="font-medium">to be able to became a full-stack web developer</span>. I'm also Learning Web Design.
+        <span className="font-medium">to be able to became a Full-Stack Web Developer</span>.
         </p>
     </motion.section>
   )
