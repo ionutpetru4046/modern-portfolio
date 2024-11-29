@@ -42,8 +42,7 @@ export default function About() {
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning Back-End Development{" "}
-        <span className="font-medium">to be able to became a full-stack web developer</span>. I'm also
-        learning Web Design with Figma.
+        <span className="font-medium">to be able to became a full-stack web developer</span>. I'm also Learning Web Design.
         </p>
     </motion.section>
   )
