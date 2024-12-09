@@ -35,7 +35,7 @@ export default function Intro() {
           >
             <Image 
               src="/profile-picture.JPG"
-              alt="profile-picture"
+              alt="logo"
               width="292"
               height="292"
               quality="95"
