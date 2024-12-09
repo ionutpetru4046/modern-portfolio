@@ -34,13 +34,13 @@ export default function Intro() {
             }}
           >
             <Image 
-              src="../public/profile-picture.JPG"
+              src="/profile-picture.JPG"
               alt="profile-picture"
               width="292"
               height="292"
               quality="95"
               priority={true}
-              className="w-30 rounded-lg object-cover 
+              className="w-30 rounded-3xl object-cover 
               border-[0.01rem] border-white shadow-xl"
             />
           </motion.div>
