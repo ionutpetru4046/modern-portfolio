@@ -70,8 +70,8 @@ export default function Intro() {
             Developer</span> with{" "}
             <span className="font-bold">2 years </span> 
              of experience. I enjoy building <span className="italic">
-              sites & apps </span>. My Main Focus is{"  "}
-              <span className="underline">React.js (Node.js)</span>.
+              Websites & Apps </span>. My Main Focus is{"  "}
+              <span className="underline">React.js & Node.js and TypeScript</span>.
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center 
