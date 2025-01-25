@@ -62,20 +62,20 @@ export const projectsData = [
     link: "https://simple-landing-page-nu.vercel.app/",
   },
   {
-    title: "E-ecommerce Website",
-    description:
-      "Super Value Deals on all Products",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: project5,
-    link: "https://ionutpetru4046.github.io/ecommerce/index.html",
-  },
-  {
     title: "Restaura",
     description:
       "We Love Cooking, At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity.",
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
     imageUrl: project6,
     link: "https://restaura-landing-page-website-gu6c5it42.vercel.app/",
+  },
+  {
+    title: "E-ecommerce Website",
+    description:
+    "Super Value Deals on all Products",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: project5,
+    link: "https://ionutpetru4046.github.io/ecommerce/index.html",
   },
 ] as const;
 
