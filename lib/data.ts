@@ -99,5 +99,9 @@ export const skillsData = [
   "Python",
   "Framer Motion",
   "Sourcetree",
-  "jQuery"
+  "jQuery",
+  "Vite",
+  "Vercel",
+  "JSON",
+  "Axios"
 ] as const;

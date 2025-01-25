@@ -44,19 +44,6 @@ export default function Intro() {
               border-[0.01rem] border-white shadow-xl"
             />
           </motion.div>
-
-          <motion.span className="absolute text-4xl bottom-0 right-0"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-              👋
-          </motion.span>
         </div>
       </div>
 
