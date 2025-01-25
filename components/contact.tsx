@@ -9,14 +9,6 @@ import { FaPaperPlane } from "react-icons/fa";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
-  const sendEmail = async (formData: FormData) => {
-    "use server";
-
-    console.log("Running on the server");
-    console.log(formData.get("senderEmail"));
-    console.log(formData.get("message"));
-  }
-
   return (
     <motion.section
       id="contact"
