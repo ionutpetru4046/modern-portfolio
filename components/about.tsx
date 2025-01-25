@@ -27,7 +27,7 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          HTML, CSS, Javascript, React.js, and Node.js,
+          MongoDB, Express.js, React.js, Node.js, and Next.js
         </span>
         . I am also familiar with Typescript and Tailwind CSS. I am always looking to
         learn new technologies. I am currently looking for a{" "}
