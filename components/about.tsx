@@ -21,7 +21,7 @@ export default function About() {
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
         I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">Frontend web Development</span>.{" "}
+        <span className="font-medium">Junior Full-Stack Web Development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack

@@ -66,7 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m 
           Coste Ionut.</span> I&apos;m a{"  "}
-          <span className="font-bold">Frontend Web 
+          <span className="font-bold">Junior Full-Stack Web 
             Developer</span> with{" "}
             <span className="font-bold">2 years </span> 
              of experience. I enjoy building <span className="italic">
