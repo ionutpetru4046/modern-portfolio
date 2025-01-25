@@ -21,7 +21,7 @@ export default function About() {
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
         I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">Junior Full-Stack Web Development</span>.{" "}
+        <span className="font-medium">Full-Stack Development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
@@ -31,13 +31,11 @@ export default function About() {
         </span>
         . I am also familiar with Typescript and Tailwind CSS. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">Full-Time Position</span> as a Frontend Web
-        Developer.
+        <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
         </p>
-
         <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        video games, watching movies, and reading books about new technologies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning Back-End Development{" "}
         <span className="font-medium">to be able to became a Full-Stack Web Developer</span>.
