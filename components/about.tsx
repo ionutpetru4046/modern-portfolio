@@ -38,7 +38,7 @@ export default function About() {
         video games, watching movies, and reading books about new technologies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning Back-End Development{" "}
-        <span className="font-medium">to be able to became a Full-Stack Web Developer</span>.
+        <span className="font-medium">to improve my Back-End Developer Skills</span>.
         </p>
     </motion.section>
   )

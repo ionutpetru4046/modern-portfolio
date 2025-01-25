@@ -85,6 +85,8 @@ export const skillsData = [
   "JavaScript",
   "React.js",
   "Node.js",
+  "MongoDB",
+  "Express.js",
   "TypeScript",
   "Next.js",
   "Tailwind CSS",
