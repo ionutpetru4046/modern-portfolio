@@ -2,9 +2,10 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
+import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { FaPaperPlane } from "react-icons/fa";
+import { sendEmail } from "@/actions/sendEmail";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -40,10 +41,6 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black" 
         action={async (formData) => {
-          console.log("Running on the client");
-          console.log(formData.get("senderEmail"));
-          console.log(formData.get("message"));
-
           await sendEmail(formData);
         }}
       >
