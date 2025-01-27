@@ -4,8 +4,8 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const validateString = (value: unknown) => {
-  if (!value  || typeof value !== "string") {
+const validateString = (value: unknown, maxLength: number) => {
+  if (!value  || typeof value !== "string" || value.length > maxLength) {
     return false;
   }
 
@@ -17,12 +17,12 @@ export const sendEmail = async (formData: FormData) => {
     const message = formData.get("message");
 
     // simple server-side validation
-    if (!validateString(senderEmail)) {
+    if (!validateString(senderEmail, 500)) {
       return {
         error: "Invalid sender email"
       }
     }
-    if (!validateString(message)) {
+    if (!validateString(message, 5000)) {
       return {
         error: "Invalid message"
       }
