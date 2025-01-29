@@ -9,8 +9,6 @@ export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
     const message = formData.get("message");
 
-    console.log(senderEmail);
-
     // simple server-side validation
     if (!validateString(senderEmail, 500)) {
       return {
@@ -25,7 +23,7 @@ export const sendEmail = async (formData: FormData) => {
 
     try {
       await resend.emails.send({
-        from: "onboarding@resend.dev",
+        from: "Contact Form <onboarding@resend.dev>",
         to: "ionion4046@gmail.com",
         subject: "Message from contact form",
         reply_to: senderEmail as string,
