@@ -10,7 +10,6 @@ import SubmitBtn from "./submit-btn";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
-  const { pending } = useFormStatus();
 
   return (
     <motion.section
