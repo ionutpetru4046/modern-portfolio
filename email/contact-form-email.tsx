@@ -16,12 +16,19 @@ type ContactFormEmailProps = {
     message: string
 }
 
-export default function ContactFormEmail({
-    message
-}: ContactFormEmailProps) {
-  return (
-    <div>
-      ContactFormEmail
-    </div>
-  )
+export default function ContactFormEmail({ message }: ContactFormEmailProps) {
+  return <Html>
+    <Head />
+    <Preview>New Message from your portfolio website</Preview>
+    <Tailwind>
+      <Body>
+        <Container>
+          <Section>
+            <Heading>You received the following message from the contact form</Heading>
+            <Text>{message}</Text>
+          </Section>
+        </Container>
+      </Body>
+    </Tailwind>
+    </Html>
 }
