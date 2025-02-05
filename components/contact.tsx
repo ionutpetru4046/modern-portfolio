@@ -49,7 +49,7 @@ export default function Contact() {
             return;
           }
 
-          alert("Message sent successfully!");
+          toast.success("Message sent successfully!");
         }}
       >
         <input
