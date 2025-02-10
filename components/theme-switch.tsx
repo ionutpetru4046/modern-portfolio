@@ -26,7 +26,7 @@ export default function ThemeSwitch() {
 
         if (localTheme) {
             setTheme(localTheme);
-
+            
             if (localTheme === "Dark") {
                 document.documentElement.classList.add("dark");
             }
