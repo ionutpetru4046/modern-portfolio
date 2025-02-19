@@ -103,6 +103,5 @@ export const skillsData = [
   "Vite",
   "Vercel",
   "JSON",
-  "Axios",
-  "SQL"
+  "Axios"
 ] as const;
