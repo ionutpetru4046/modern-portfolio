@@ -24,13 +24,12 @@ export default function About() {
         <span className="font-medium">Full-Stack Development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        feeling of finally figuring out a solution to a problem. My core Stack
         is{" "}
         <span className="font-medium">
-          MongoDB, Express.js, React.js, Node.js, and Next.js
+          React.js, Node.js, Express.js, and MongoDB
         </span>
-        . I am also familiar with Typescript and Tailwind CSS. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with Typescript and Tailwind CSS and Next.js. I am currently looking for a{" "}
         <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
         </p>
         <p>
