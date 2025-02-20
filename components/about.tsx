@@ -20,7 +20,7 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
-        I enrolled in a coding bootcamp and learned{" "}
+        I Enrolled in a Coding Bootcamp and Learned{" "}
         <span className="font-medium">Full-Stack Development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -29,7 +29,7 @@ export default function About() {
         <span className="font-medium">
           React.js, Node.js, Express.js, and MongoDB
         </span>
-        . I am also familiar with Typescript and Tailwind CSS and Next.js. I am currently looking for a{" "}
+        . I am also familiar with Typescript, Tailwind CSS and Next.js. I am currently looking for a{" "}
         <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
         </p>
         <p>
