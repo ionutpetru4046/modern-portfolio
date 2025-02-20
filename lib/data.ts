@@ -99,7 +99,6 @@ export const skillsData = [
   "Python",
   "Framer Motion",
   "Sourcetree",
-  "jQuery",
   "Vite",
   "Vercel",
   "JSON",
