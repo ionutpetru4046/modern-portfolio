@@ -33,8 +33,7 @@ export default function About() {
         <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
         </p>
         <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and reading books about new technologies. I also enjoy{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy watching movies, and reading books about new technologies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning Back-End Development{" "}
         <span className="font-medium">to improve my Back-End Developer Skills</span>.
