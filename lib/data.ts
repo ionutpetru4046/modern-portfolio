@@ -85,10 +85,10 @@ export const skillsData = [
   "JavaScript",
   "React.js",
   "Node.js",
-  "MongoDB",
   "Express.js",
-  "TypeScript",
+  "MongoDB",
   "Next.js",
+  "TypeScript",
   "Tailwind CSS",
   "Bootstrap",
   "Postman API",
@@ -100,7 +100,6 @@ export const skillsData = [
   "Framer Motion",
   "Sourcetree",
   "Vite",
-  "Vercel",
   "JSON",
   "Axios"
 ] as const;
