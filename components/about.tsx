@@ -33,9 +33,9 @@ export default function About() {
         <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
         </p>
         <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching movies, and reading books about new technologies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning Back-End Development{" "}
+        <span className="italic">When I'm not Coding</span>, I enjoy watching movies, and reading Books about new Technologies. I also enjoy{" "}
+        <span className="font-medium">Learning new things</span>. I am currently
+        Learning Back-End Development{" "}
         <span className="font-medium">to improve my Back-End Developer Skills</span>.
         </p>
     </motion.section>
