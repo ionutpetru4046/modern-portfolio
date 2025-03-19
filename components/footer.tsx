@@ -7,7 +7,7 @@ export default function Footer() {
         &copy; 2025 Coste Ionut Petru. All rights reserved.
       </small>
       <p className='text-xs'>
-        <span className='font-semibold'>About this Website:</span> Built with React.js & Next.js (App Router), Typescript, Tailwind CSS, Framer Motion, and Vercel Hosting.
+        <span className='font-semibold'>About this Website:</span> Built with React.js & Next.js (App Router), Typescript, Tailwind CSS, Framer Motion, and Hosting on Vercel.
       </p>
     </footer>
   );
