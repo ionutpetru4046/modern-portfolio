@@ -30,7 +30,7 @@ export default function About() {
           React.js, Node.js, Express.js, and MongoDB
         </span>
         . I am also familiar with Typescript, Tailwind CSS and Next.js. I am currently looking for a{" "}
-        <span className="font-medium">Full-Time Position</span> as a Junior Full-Stack Developer.
+        <span className="font-medium">Full-Time Position</span> as a Full-Stack Developer.
         </p>
         <p>
         <span className="italic">When I'm not Coding</span>, I enjoy watching movies, and reading Books about new Technologies. I also enjoy{" "}
