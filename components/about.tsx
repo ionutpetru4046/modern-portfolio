@@ -20,23 +20,19 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
-        I Enrolled in a Coding Bootcamp and Learned{" "}
-        <span className="font-medium">Full-Stack Web Development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My Core Stack
-        is{" "}
+        I have 2 years of experience in frontend web development{" "}
+        <span className="font-medium">working with HTML, CSS, JavaScript, React.js, Node.js, and GitHub.</span>.{" "}
+        <span className="italic">I’ve built several personal projects </span> and have also worked with SQL for database building.<span className="underline">Currently,</span> I’m mastering the MERN stack to transition into full-stack development
+        {" "}
         <span className="font-medium">
-          React.js, Node.js, Express.js, and MongoDB
+        and enhance my skills in backend technologies like MongoDB, Express.js, and authentication systems. 
         </span>
-        . I am also familiar with Typescript, Tailwind CSS and Next.js. I am currently looking for a{" "}
-        <span className="font-medium">Full-Time Position</span> as a Full-Stack Developer.
+        My goal is to land my first industry{" "}
+        <span className="font-medium">job as a Full Stack Developer, {" "}</span>
         </p>
         <p>
-        <span className="italic">When I'm not Coding</span>, I enjoy watching movies, and reading Books about new Technologies. I also enjoy{" "}
-        <span className="font-medium">Learning new things</span>. I am currently
-        Learning Back-End Development{" "}
-        <span className="font-medium">to improve my Back-End Developer Skills</span>.
+        <span className="italic">and I’m actively working</span>, on improving my JavaScript {" "}
+        <span className="font-medium"> efficiency and programming logic.</span>{" "}
         </p>
     </motion.section>
   )
