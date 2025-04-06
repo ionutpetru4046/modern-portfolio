@@ -25,9 +25,7 @@ export default function About() {
         <span className="italic">I’ve built several personal projects </span> and have also worked with SQL for database building. <span className="underline"> Currently,</span> I’m mastering the MERN stack to transition into full-stack development
         {" "}
         <span className="font-medium">
-        and enhance my skills in backend technologies like MongoDB, Express.js, and authentication systems. 
-        </span>
-        My goal is to land my first industry{" "}
+        and enhance my skills in backend technologies like MongoDB, Express.js, and authentication systems. </span> My goal is to land my first industry{" "}
         <span className="font-medium">job as a Full Stack Developer, {" "}</span>
         </p>
         <p>
