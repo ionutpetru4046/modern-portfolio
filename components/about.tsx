@@ -22,7 +22,7 @@ export default function About() {
         <p className='mb-3'>
         I have 2 years of experience in frontend web development{" "}
         <span className="font-medium">working with HTML, CSS, JavaScript, React.js, Node.js, and GitHub.</span>.{" "}
-        <span className="italic">I’ve built several personal projects </span> and have also worked with SQL for database building.<span className="underline">Currently,</span> I’m mastering the MERN stack to transition into full-stack development
+        <span className="italic">I’ve built several personal projects </span> and have also worked with SQL for database building. <span className="underline"> Currently,</span> I’m mastering the MERN stack to transition into full-stack development
         {" "}
         <span className="font-medium">
         and enhance my skills in backend technologies like MongoDB, Express.js, and authentication systems. 
