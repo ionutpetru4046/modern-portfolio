@@ -26,7 +26,7 @@ export default function About() {
         {" "}
         <span className="font-medium">
         and enhance my skills in backend technologies like MongoDB, Express.js, and authentication systems. </span> My goal is to land my first industry{" "}
-        <span className="font-medium">job as a Full Stack Developer, {" "}</span>
+        <span className="font-medium">job as a Frontend Web Developer, {" "}</span>
         </p>
         <p>
         <span className="italic">and I’m actively working</span>, on improving my JavaScript {" "}
