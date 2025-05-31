@@ -53,10 +53,10 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m 
           Coste Ionut.</span> I&apos;m a{"  "}
-          <span className="font-bold">Frontend Web 
+          <span className="font-bold">Full Stack 
             Developer</span> with{" "}
             <span className="font-bold">2+ years </span> 
-             of experience. I enjoy building <span className="italic">
+             of Experience. I enjoy building <span className="italic">
               Websites & Apps </span>. My Main Focus is{"  "}
               <span className="underline">React.js & Node.js and TypeScript</span>.
       </motion.h1>
