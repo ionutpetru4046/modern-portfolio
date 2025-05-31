@@ -20,7 +20,7 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading >
         <p className='mb-3'>
-        I have 2+ years of experience in frontend web development{" "}
+        I have 2+ years of experience as a Frontend Web Developer{" "}
         <span className="font-medium">working with HTML, CSS, JavaScript, React.js, Node.js, and GitHub.</span>.{" "}
         <span className="italic">I’ve built several personal projects </span> and have also worked with SQL for database building. <span className="underline"> Currently,</span> I’m mastering the MERN stack to transition into full-stack development
         {" "}
