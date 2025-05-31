@@ -1,4 +1,5 @@
 import React from 'react'
+import { Tailwind } from "@react-email/tailwind";
 import {
     Html,
     Body,
@@ -10,7 +11,6 @@ import {
     Section,
     Text
 } from '@react-email/components';
-import { Tailwind } from "@react-email/tailwind";
 
 type ContactFormEmailProps = {
     message: string;
