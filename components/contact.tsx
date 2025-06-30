@@ -39,7 +39,7 @@ export default function Contact() {
       >
         Please contact me directly at{' '}
         <a className="underline text-indigo-600 font-semibold" href="mailto:ionthekid@yahoo.com">
-          ionut4046@yahoo.com
+          costewebdev@gmail.com
         </a>{' '}
         or through this form.
       </motion.p>
