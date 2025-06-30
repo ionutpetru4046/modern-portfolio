@@ -11,107 +11,90 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home', 0.5);
-  const {
-    setActiveSection,
-    setTimeOfLastClick,
-  } = useActiveSectionContext();
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section 
-    ref={ref} 
-    id="home" 
-    className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    <section
+      ref={ref}
+      id="home"
+      className="max-w-3xl mx-auto mb-36 text-center scroll-mt-[100rem] px-6"
     >
-      <div className="flex items-center justify-center">
-        <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image 
-              src="/profile-picture.jpg"
-              alt="logo"
-              width="292"
-              height="292"
-              quality="95"
-              priority={true}
-              className="w-30 rounded-3xl object-cover 
-              border-[0.01rem] border-white shadow-xl"
-            />
-          </motion.div>
-        </div>
+      {/* Profile Image */}
+      <div className="flex justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4 }}
+          className="relative"
+        >
+          <Image
+            src="/profile-picture.jpg"
+            alt="Profile Picture"
+            width={220}
+            height={220}
+            quality={95}
+            priority
+            className="rounded-full border-4 border-white shadow-lg dark:border-gray-700"
+          />
+        </motion.div>
       </div>
 
-      <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
+      {/* Heading */}
+      <motion.h1
+        className="mt-8 text-3xl sm:text-4xl font-bold leading-snug tracking-tight text-gray-900 dark:text-white"
+        initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
       >
-        <span className="font-bold">Hello, I&apos;m 
-          Coste Ionut.</span> I&apos;m a{"  "}
-          <span className="font-bold">Full Stack 
-            Developer</span> with{" "}
-            <span className="font-bold">2+ years </span> 
-             of Experience. I enjoy building <span className="italic">
-              Websites & Apps </span>. My Main Focus is{"  "}
-              <span className="underline">React.js & Node.js and TypeScript</span>.
+        Hi, I’m <span className="text-indigo-600">Coste Ionut</span>. <br />
+        A Full Stack Developer (MERN) with{" "}
+        <span className="text-indigo-500">2+ years</span> of experience building{" "}
+        <span className="italic">modern websites & apps</span> using{" "}
+        <span className="underline">React, Node, and TypeScript</span>.
       </motion.h1>
 
-      <motion.div className="flex flex-col sm:flex-row items-center justify-center 
-      gap-2 px-4 text-lg font-medium"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        delay: 0.1,
-      }}
+      {/* Buttons and Links */}
+      <motion.div
+        className="mt-10 flex flex-wrap justify-center gap-4 text-base font-medium"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
       >
-        <Link 
-        href="#contact" 
-        className="group bg-gray-900 text-white px-7 py-3 
-        flex items-center gap-2 rounded-full outline-none 
-        focus:scale-110 hover:scale-110 hover:bg-gray-950 
-        active:scale-105 transition" 
-        onClick={() => {
-          setActiveSection('Contact');
-          setTimeOfLastClick(Date.now());
-        }}
+        <Link
+          href="#contact"
+          className="group bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-indigo-700 transition focus:scale-105 active:scale-100 inline-flex items-center gap-2"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
-        Contact Me Here{" "}
-        <BsArrowRight className="opacity-70 
-        group-hover:translate-x-1 transition" />
+          Contact Me <BsArrowRight className="group-hover:translate-x-1 transition" />
         </Link>
 
-        <a 
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer 
-          dark:bg-white/10 border border-black/10" 
-          href="/Full Stack Web Developer MERN Stack.pdf" download >
-          Download CV{" "} 
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-          </a>
-          <a 
-            className="bg-white p-4 text-gray-700 flex 
-        items-center gap-2 rounded-full focus:scale-110 
-        hover:scale-110 active:scale-105 hover:text-blue-600 transition cursor-pointer border 
-        border-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:text-blue-600" href="https://www.linkedin.com/in/coste-ionut-7531312bb/" 
-        target="_blank"
+        <a
+          href="/Full Stack Web Developer MERN Stack.pdf"
+          download
+          className="group bg-white dark:bg-white/10 border border-gray-300 dark:border-gray-700 px-6 py-3 rounded-full hover:bg-gray-100 dark:hover:bg-white/20 text-gray-800 dark:text-gray-100 inline-flex items-center gap-2 transition focus:scale-105 active:scale-100"
         >
-              <BsLinkedin />
-          </a>
-          <a 
-             className="bg-white p-4 text-gray-700 flex 
-             items-center gap-2 rounded-full focus:scale-110 
-             hover:scale-110 active:scale-105 hover:text-red-700 transition 
-             cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 
-             dark:hover:text-red-600"
-             href="https://github.com/ionutpetru4046" 
-             target="_blank"
-             >
-            <FaGithubSquare />
-          </a>
+          Download CV <HiDownload className="group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/coste-ionut-petru-7531312bb/"
+          target="_blank"
+          className="bg-white dark:bg-white/10 p-4 rounded-full border border-gray-300 dark:border-gray-700 hover:text-blue-600 dark:hover:text-blue-400 transition focus:scale-105 active:scale-100 text-gray-700 dark:text-white/70"
+        >
+          <BsLinkedin size={22} />
+        </a>
+
+        <a
+          href="https://github.com/ionutpetru4046"
+          target="_blank"
+          className="bg-white dark:bg-white/10 p-4 rounded-full border border-gray-300 dark:border-gray-700 hover:text-red-600 dark:hover:text-red-400 transition focus:scale-105 active:scale-100 text-gray-700 dark:text-white/70"
+        >
+          <FaGithubSquare size={24} />
+        </a>
       </motion.div>
     </section>
   );
