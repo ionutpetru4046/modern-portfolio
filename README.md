@@ -1,8 +1,10 @@
 # 🚀 Modern Portfolio – Coste Ionut
 
+![Portfolio Screenshot](public/heroImg.png)
+
 A beautiful, modern, and fully responsive developer portfolio built with Next.js, React, Tailwind CSS, and Framer Motion.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blueviolet?style=for-the-badge&logo=vercel)](https://your-portfolio-demo-link.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blueviolet?style=for-the-badge&logo=vercel)](modern-portfolio-2025-sigma.vercel.app/)
 
 ---
 
