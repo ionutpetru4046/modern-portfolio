@@ -6,7 +6,7 @@ A beautiful, modern, and fully responsive developer portfolio built with Next.js
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blueviolet?style=for-the-badge&logo=vercel)](modern-portfolio-2025-sigma.vercel.app/)
 
-[🌐 Live Website](modern-portfolio-2025-sigma.vercel.app/ )
+[🌐 Live Website](https://modern-portfolio-2025-sigma.vercel.app/)
 
 ---
 
