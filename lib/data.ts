@@ -30,6 +30,14 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "MERN Task Manager",
+    description:
+      "A full-stack task management application with user authentication, CRUD functionality, and RESTful API integration. Built using the MERN stack (MongoDB, Express, React, Node.js).",
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    imageUrl: project5,
+    link: "https://mern-task-manager-bh80.onrender.com",
+  },
+  {
     title: "Modern Saas Website",
     description:
       "Optimize your streams, track real-time analytics, and engage your audience effortlessly—all in one place. Perfect for Twitch, YouTube, and Facebook streamers.",
@@ -68,15 +76,7 @@ export const projectsData = [
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
     imageUrl: project6,
     link: "https://restaura-landing-page-website-gu6c5it42.vercel.app/",
-  },
-  {
-    title: "E-ecommerce Website",
-    description:
-    "Super Value Deals on all Products",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: project5,
-    link: "https://ionutpetru4046.github.io/ecommerce/index.html",
-  },
+  }, 
 ] as const;
 
 export const skillsData = [
