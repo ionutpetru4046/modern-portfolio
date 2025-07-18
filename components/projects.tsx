@@ -21,7 +21,7 @@ export default function Projects() {
       </div>
       <SectionHeading>
         <span className="inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow font-extrabold text-4xl tracking-tight">
-          My Projects
+          My Latest Projects
         </span>
       </SectionHeading>
       <div className="relative z-10 flex flex-col gap-12 sm:gap-16 max-w-3xl mx-auto">
