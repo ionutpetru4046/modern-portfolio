@@ -40,7 +40,7 @@ export default function Intro() {
             height={220}
             quality={95}
             priority
-            className="rounded-full border-4 border-white shadow-lg dark:border-gray-700 relative z-10"
+            className="rounded-full border-white shadow-lg dark:border-gray-700 relative z-10"
           />
         </motion.div>
       </div>
