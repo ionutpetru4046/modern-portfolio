@@ -53,7 +53,7 @@ export default function Intro() {
         transition={{ duration: 0.5 }}
       >
         Hi, I'm <span className="font-extrabold">Coste Ionut</span>.<br />
-        A Full Stack Developer (MERN) with <span className="font-extrabold">2+ years</span> of experience building <span className="italic">modern websites & apps</span> using <span className="underline">React, Node, and TypeScript</span>.
+        A Full Stack Developer (MERN) with <span className="font-extrabold">2 years and 6 months</span> of experience building <span className="italic">modern websites & apps</span> using <span className="underline">React, Node, and TypeScript</span>.
       </motion.h1>
 
       {/* Buttons and Links */}

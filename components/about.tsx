@@ -33,7 +33,7 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        I have <span className="font-semibold text-indigo-600">2+ years</span> of experience as a{" "}
+        I have <span className="font-semibold text-indigo-600">2 years and 6 months</span> of experience as a{" "}
         <span className="font-medium">Frontend Web Developer</span> working with{" "}
         <span className="text-gray-900 dark:text-white">HTML, CSS, JavaScript, React.js, Node.js</span> and version control tools like{" "}
         <span className="text-gray-900 dark:text-white">Git & GitHub</span>.
