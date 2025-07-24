@@ -49,7 +49,7 @@ export default function About() {
         transition={{ delay: 0.4 }}
       >
         Currently, I'm mastering the{" "}
-        <span className="font-semibold text-indigo-600">MERN stack</span> to become a skilled full-stack developer, focusing on{" "}
+        <span className="font-semibold text-indigo-600">MERN Stack</span> to become a skilled full-stack developer, focusing on{" "}
         <span className="font-medium">MongoDB, Express.js, REST APIs, and authentication systems</span>.
       </motion.p>
 
