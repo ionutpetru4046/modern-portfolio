@@ -1,9 +1,9 @@
-import project1 from "@/public/projects1.png"
-import project2 from "@/public/projects2.png"
-import project3 from "@/public/projects3.png"
-import project4 from "@/public/projects4.png"
-import project5 from "@/public/projects5.png"
-import project6 from "@/public/projects6.png"
+import project1 from "@/public/projects1.png";
+import project2 from "@/public/projects2.png";
+import project3 from "@/public/projects3.png";
+import project4 from "@/public/projects4.png";
+import project5 from "@/public/projects5.png";
+import project6 from "@/public/projects6.png";
 
 export const links = [
   {
@@ -30,6 +30,20 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Josh’s Turkish Barbers",
+    description:
+      "A modern barbershop website built for a real client. Fully responsive and animated using Framer Motion, it includes services, gallery, testimonials carousel, and a booking CTA.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Swiper.js",
+    ],
+    imageUrl: project6,
+    link: "https://barbershop-website-chi.vercel.app/",
+  },
+  {
     title: "MERN Task Manager",
     description:
       "A full-stack task management application with user authentication, CRUD functionality, and RESTful API integration. Built using the MERN stack (MongoDB, Express, React, Node.js).",
@@ -47,8 +61,7 @@ export const projectsData = [
   },
   {
     title: "Advertising Website",
-    description:
-      "We create impactful ads that elevate your brand.",
+    description: "We create impactful ads that elevate your brand.",
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
     imageUrl: project2,
     link: "https://landing-page-advertising-website.vercel.app/",
@@ -66,18 +79,9 @@ export const projectsData = [
     description:
       "At VastuSpaze, we believe in transforming houses into dream homes. With a passion for design and a commitment to quality, our team of skilled professionals has been dedicated to delivering exceptional renovation services for over a decade.",
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
-    imageUrl: project6,
+    imageUrl: project4,
     link: "https://simple-landing-page-nu.vercel.app/",
   },
-  {
-    title: "Josh’s Turkish Barbers",
-    description:
-      "A modern barbershop website built for a real client. Fully responsive and animated using Framer Motion, it includes services, gallery, testimonials carousel, and a booking CTA.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Swiper.js"],
-    imageUrl: project6,
-    link: "https://barbershop-website-chi.vercel.app/",
-  }
-   
 ] as const;
 
 export const skillsData = [
@@ -102,5 +106,5 @@ export const skillsData = [
   "Sourcetree",
   "Vite",
   "JSON",
-  "Axios"
+  "Axios",
 ] as const;
