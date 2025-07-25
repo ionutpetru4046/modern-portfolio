@@ -66,17 +66,18 @@ export const projectsData = [
     description:
       "At VastuSpaze, we believe in transforming houses into dream homes. With a passion for design and a commitment to quality, our team of skilled professionals has been dedicated to delivering exceptional renovation services for over a decade.",
     tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
-    imageUrl: project4,
+    imageUrl: project6,
     link: "https://simple-landing-page-nu.vercel.app/",
   },
   {
-    title: "Restaura",
+    title: "Josh’s Turkish Barbers",
     description:
-      "We Love Cooking, At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity.",
-    tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
+      "A modern barbershop website built for a real client. Fully responsive and animated using Framer Motion, it includes services, gallery, testimonials carousel, and a booking CTA.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Swiper.js"],
     imageUrl: project6,
-    link: "https://restaura-landing-page-website-gu6c5it42.vercel.app/",
-  }, 
+    link: "https://barbershop-website-chi.vercel.app/",
+  }
+   
 ] as const;
 
 export const skillsData = [
