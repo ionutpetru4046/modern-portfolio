@@ -32,8 +32,8 @@ export const projectsData = [
   {
     title: "Mechanic Booking Website",
     description:
-      "A full-stack booking and service website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "A Full-Stack Booking and service Website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
+    tags: ["React.js", "Node.js", "Express", "MongoDB"],
     imageUrl: project4,
     link: "https://mechanic-website-tau.vercel.app/",
   },
