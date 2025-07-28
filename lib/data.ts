@@ -75,13 +75,13 @@ export const projectsData = [
     link: "https://landing-page-3dpjrrx48-ionutpetru4046s-projects.vercel.app/",
   },
   {
-    title: "Sample Landing Page",
+    title: "Mechanic Booking Website",
     description:
-      "At VastuSpaze, we believe in transforming houses into dream homes. With a passion for design and a commitment to quality, our team of skilled professionals has been dedicated to delivering exceptional renovation services for over a decade.",
-    tags: ["React.js", "Vite", "Tailwind CSS", "Framer-Motion"],
+      "A full-stack booking and service website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
+    tags: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     imageUrl: project4,
-    link: "https://simple-landing-page-nu.vercel.app/",
-  },
+    link: "https://mechanic-website-tau.vercel.app/",
+  }
 ] as const;
 
 export const skillsData = [
