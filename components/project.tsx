@@ -51,7 +51,7 @@ export default function Project({
             tabIndex={0}
             aria-label={`View project: ${title}`}
           >
-            View Project
+            View Live Project
           </a>
         </div>
         {/* Project Content */}
