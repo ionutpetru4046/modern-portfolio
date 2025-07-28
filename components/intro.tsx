@@ -52,8 +52,12 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Hi, I'm <span className="font-extrabold">Coste Ionut</span>.<br />
-        A Full Stack Developer (MERN) with <span className="font-extrabold">2 years and 6 months</span> of experience building <span className="italic">modern websites & apps</span> using <span className="underline">React, Node, and TypeScript</span>.
+        Hi, I'm <span className="font-extrabold">Coste Ionut</span>.<br />A Full
+        Stack Developer (MERN) with{" "}
+        <span className="font-extrabold">2 years and 6 months</span> of
+        experience building{" "}
+        <span className="italic">modern websites & apps</span> using{" "}
+        <span className="underline">React, Node, and TypeScript</span>.
       </motion.h1>
 
       {/* Buttons and Links */}
@@ -71,7 +75,8 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact Me <BsArrowRight className="group-hover:translate-x-1 transition" />
+          Contact Me{" "}
+          <BsArrowRight className="group-hover:translate-x-1 transition" />
         </Link>
 
         <a
@@ -79,7 +84,8 @@ export default function Intro() {
           download
           className="group bg-white/80 dark:bg-white/10 border border-gray-300 dark:border-gray-700 px-6 py-3 rounded-full hover:bg-gray-100 dark:hover:bg-white/20 text-gray-800 dark:text-gray-100 inline-flex items-center gap-2 transition focus:scale-105 active:scale-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
         >
-          Download CV <HiDownload className="group-hover:translate-y-1 transition" />
+          Download CV{" "}
+          <HiDownload className="group-hover:translate-y-1 transition" />
         </a>
 
         <a

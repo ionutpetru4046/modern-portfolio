@@ -56,8 +56,12 @@ export default function Project({
         </div>
         {/* Project Content */}
         <div className="relative z-10 px-6 py-8 sm:px-10 sm:py-10 flex flex-col gap-4">
-          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-2">{title}</h3>
-          <p className="text-gray-700 dark:text-white/80 leading-relaxed mb-2">{description}</p>
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-2">
+            {title}
+          </h3>
+          <p className="text-gray-700 dark:text-white/80 leading-relaxed mb-2">
+            {description}
+          </p>
           <ul className="flex flex-wrap gap-2 mt-2">
             {tags.map((tag, index) => (
               <li

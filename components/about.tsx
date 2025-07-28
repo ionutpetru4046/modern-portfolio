@@ -33,12 +33,20 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        I have <span className="font-semibold text-indigo-600">2 years and 6 months</span> of experience as a{" "}
+        I have{" "}
+        <span className="font-semibold text-indigo-600">
+          2 years and 6 months
+        </span>{" "}
+        of experience as a{" "}
         <span className="font-medium">Frontend Web Developer</span> working with{" "}
-        <span className="text-gray-900 dark:text-white">HTML, CSS, JavaScript, React.js, Node.js</span> and version control tools like{" "}
+        <span className="text-gray-900 dark:text-white">
+          HTML, CSS, JavaScript, React.js, Node.js
+        </span>{" "}
+        and version control tools like{" "}
         <span className="text-gray-900 dark:text-white">Git & GitHub</span>.
         <span className="block mt-2 italic text-gray-600 dark:text-gray-400">
-          I've built several personal projects and also worked with SQL for backend database design.
+          I've built several personal projects and also worked with SQL for
+          backend database design.
         </span>
       </motion.p>
 
@@ -49,8 +57,12 @@ export default function About() {
         transition={{ delay: 0.4 }}
       >
         Currently, I'm mastering the{" "}
-        <span className="font-semibold text-indigo-600">MERN Stack</span> to become a skilled full-stack developer, focusing on{" "}
-        <span className="font-medium">MongoDB, Express.js, REST APIs, and authentication systems</span>.
+        <span className="font-semibold text-indigo-600">MERN Stack</span> to
+        become a skilled full-stack developer, focusing on{" "}
+        <span className="font-medium">
+          MongoDB, Express.js, REST APIs, and authentication systems
+        </span>
+        .
       </motion.p>
 
       <motion.p
@@ -60,8 +72,14 @@ export default function About() {
         transition={{ delay: 0.5 }}
       >
         My goal is to land my{" "}
-        <span className="font-semibold text-indigo-600">first developer role</span> and continue to improve my{" "}
-        <span className="font-medium">JavaScript logic, efficiency, and real-world problem-solving skills</span>.
+        <span className="font-semibold text-indigo-600">
+          first developer role
+        </span>{" "}
+        and continue to improve my{" "}
+        <span className="font-medium">
+          JavaScript logic, efficiency, and real-world problem-solving skills
+        </span>
+        .
       </motion.p>
     </motion.section>
   );

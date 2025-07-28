@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function Footer() {
   return (
@@ -12,7 +12,9 @@ export default function Footer() {
           &copy; 2025 Coste Ionut Petru. All rights reserved.
         </small>
         <p className="text-xs text-gray-600 dark:text-gray-300">
-          <span className="font-semibold">About this Website:</span> Built with React.js & Next.js (App Router), Typescript, Tailwind CSS, Framer Motion, and Hosting on Vercel.
+          <span className="font-semibold">About this Website:</span> Built with
+          React.js & Next.js (App Router), Typescript, Tailwind CSS, Framer
+          Motion, and Hosting on Vercel.
         </p>
       </div>
     </footer>

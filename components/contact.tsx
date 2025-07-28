@@ -37,10 +37,13 @@ export default function Contact() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        Please contact me directly at{' '}
-        <a className="underline text-indigo-600 font-semibold" href="mailto:ionthekid@yahoo.com">
+        Please contact me directly at{" "}
+        <a
+          className="underline text-indigo-600 font-semibold"
+          href="mailto:ionthekid@yahoo.com"
+        >
           costewebdev@gmail.com
-        </a>{' '}
+        </a>{" "}
         or through this form.
       </motion.p>
 
@@ -50,7 +53,7 @@ export default function Contact() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
         action={async (formData) => {
-          const{ data, error } = await sendEmail(formData);
+          const { data, error } = await sendEmail(formData);
 
           if (error) {
             toast.error(error);

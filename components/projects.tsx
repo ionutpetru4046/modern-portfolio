@@ -30,7 +30,11 @@ export default function Projects() {
             key={index}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 + index * 0.15, duration: 0.6, type: 'spring' }}
+            transition={{
+              delay: 0.1 + index * 0.15,
+              duration: 0.6,
+              type: "spring",
+            }}
             viewport={{ once: true }}
           >
             <Project {...project} />

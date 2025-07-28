@@ -5,8 +5,31 @@ import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaPython } from "react-icons/fa";
-import { SiTypescript, SiNextdotjs, SiExpress, SiMongodb, SiTailwindcss, SiRedux, SiFirebase, SiVite, SiPostman, SiJson, SiBootstrap, SiSourcetree, SiAxios } from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaGithub,
+  FaPython,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiExpress,
+  SiMongodb,
+  SiTailwindcss,
+  SiRedux,
+  SiFirebase,
+  SiVite,
+  SiPostman,
+  SiJson,
+  SiBootstrap,
+  SiSourcetree,
+  SiAxios,
+} from "react-icons/si";
 
 // Fade-in animation
 const fadeInAnimationVariants = {
@@ -72,7 +95,9 @@ export default function Skills() {
       </SectionHeading>
       <ul className="relative z-10 mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
         {skillsData.map((skill, index) => {
-          const meta = skillMeta[skill] || { bg: "bg-gray-200 text-black dark:bg-white/10 dark:text-white/80" };
+          const meta = skillMeta[skill] || {
+            bg: "bg-gray-200 text-black dark:bg-white/10 dark:text-white/80",
+          };
           return (
             <motion.li
               key={index}
@@ -83,7 +108,11 @@ export default function Skills() {
               viewport={{ once: true }}
               custom={index}
             >
-              {meta.icon && <span className="text-xl sm:text-2xl drop-shadow">{meta.icon}</span>}
+              {meta.icon && (
+                <span className="text-xl sm:text-2xl drop-shadow">
+                  {meta.icon}
+                </span>
+              )}
               <span>{skill}</span>
             </motion.li>
           );
