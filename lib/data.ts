@@ -30,6 +30,14 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Mechanic Booking Website",
+    description:
+      "A full-stack booking and service website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
+    tags: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    imageUrl: project4,
+    link: "https://mechanic-website-tau.vercel.app/",
+  },
+  {
     title: "Josh’s Turkish Barbers",
     description:
       "A modern barbershop website built for a real client. Fully responsive and animated using Framer Motion, it includes services, gallery, testimonials carousel, and a booking CTA.",
@@ -74,14 +82,6 @@ export const projectsData = [
     imageUrl: project3,
     link: "https://landing-page-3dpjrrx48-ionutpetru4046s-projects.vercel.app/",
   },
-  {
-    title: "Mechanic Booking Website",
-    description:
-      "A full-stack booking and service website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    imageUrl: project4,
-    link: "https://mechanic-website-tau.vercel.app/",
-  }
 ] as const;
 
 export const skillsData = [
