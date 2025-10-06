@@ -35,7 +35,7 @@ export default function About() {
       >
         I have{" "}
         <span className="font-semibold text-indigo-600">
-          2 years and 9 months
+          2 years and 10 months
         </span>{" "}
         of experience as a{" "}
         <span className="font-medium">Frontend Web Developer</span> working with{" "}
