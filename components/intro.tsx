@@ -54,7 +54,7 @@ export default function Intro() {
       >
         Hi, I'm <span className="font-extrabold">Coste Ionut</span>.<br />A Full
         Stack Developer (MERN) with{" "}
-        <span className="font-extrabold">2 years and 6 months</span> of
+        <span className="font-extrabold">2 years and 10 months</span> of
         experience building{" "}
         <span className="italic">modern websites & apps</span> using{" "}
         <span className="underline">React, Node, and TypeScript</span>.
