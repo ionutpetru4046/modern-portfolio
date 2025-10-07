@@ -80,7 +80,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/Full Stack Web Developer MERN Stack.pdf"
+          href="/Full Stack Developer MERN Stack updated.pdf"
           download
           className="group bg-white/80 dark:bg-white/10 border border-gray-300 dark:border-gray-700 px-6 py-3 rounded-full hover:bg-gray-100 dark:hover:bg-white/20 text-gray-800 dark:text-gray-100 inline-flex items-center gap-2 transition focus:scale-105 active:scale-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
         >
