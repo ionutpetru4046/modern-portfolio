@@ -21,65 +21,80 @@ export default function About() {
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80vw] h-32 bg-gradient-to-r from-indigo-200/30 via-pink-200/20 to-purple-200/30 blur-2xl rounded-full" />
       </div>
+
       <SectionHeading>
         <span className="inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow font-extrabold text-4xl tracking-tight">
           About Me
         </span>
       </SectionHeading>
 
+      {/* Paragraph 1 */}
       <motion.p
-        className="mb-4 text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
+        className="mb-6 text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        I have{" "}
+        Hi there 👋 I’m a{" "}
         <span className="font-semibold text-indigo-600">
-          2 years and 10 months
+          Frontend Web Developer
         </span>{" "}
-        of experience as a{" "}
-        <span className="font-medium">Frontend Web Developer</span> working with{" "}
+        with{" "}
+        <span className="font-semibold text-indigo-600">
+          2 years and 10 months of experience
+        </span>{" "}
+        turning ideas into beautiful, responsive, and high-performing web
+        interfaces. I love bringing designs to life with{" "}
         <span className="text-gray-900 dark:text-white">
-          HTML, CSS, JavaScript, React.js, Node.js
-        </span>{" "}
-        and version control tools like{" "}
-        <span className="text-gray-900 dark:text-white">Git & GitHub</span>.
-        <span className="block mt-2 italic text-gray-600 dark:text-gray-400">
-          I've built several personal projects and also worked with SQL for
-          backend database design.
+          HTML, CSS, JavaScript, React.js, and Node.js
         </span>
+        , while keeping every detail clean and user-focused.
       </motion.p>
 
+      {/* Paragraph 2 */}
       <motion.p
-        className="mb-4 text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
+        className="mb-6 text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
       >
-        Currently, I'm mastering the{" "}
-        <span className="font-semibold text-indigo-600">MERN Stack</span> to
-        become a skilled full-stack developer, focusing on{" "}
-        <span className="font-medium">
-          MongoDB, Express.js, REST APIs, and authentication systems
-        </span>
-        .
+        Over the years, I’ve built several personal projects, explored{" "}
+        <span className="text-gray-900 dark:text-white">SQL</span> for backend
+        database design, and strengthened my workflow with{" "}
+        <span className="text-gray-900 dark:text-white">Git & GitHub</span> for
+        version control.
       </motion.p>
 
+      {/* Paragraph 3 */}
       <motion.p
-        className="text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
+        className="mb-6 text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        My goal is to land my{" "}
-        <span className="font-semibold text-indigo-600">
-          first developer role
-        </span>{" "}
-        and continue to improve my{" "}
+        Right now, I’m leveling up my skills by mastering the{" "}
+        <span className="font-semibold text-indigo-600">MERN Stack</span> — diving deep
+        into{" "}
         <span className="font-medium">
-          JavaScript logic, efficiency, and real-world problem-solving skills
-        </span>
-        .
+          MongoDB, Express.js, REST APIs, and authentication systems
+        </span>{" "}
+        to become a well-rounded{" "}
+        <span className="font-semibold text-indigo-600">full-stack developer</span>.
+      </motion.p>
+
+      {/* Paragraph 4 */}
+      <motion.p
+        className="text-lg sm:text-xl text-gray-700 dark:text-white/80 relative z-10"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6 }}
+      >
+        My mission is to{" "}
+        <span className="font-semibold text-indigo-600">
+          land my first developer role
+        </span>{" "}
+        where I can solve real-world problems, write meaningful code, and keep
+        pushing my creativity and technical skills forward every day.
       </motion.p>
     </motion.section>
   );
