@@ -24,6 +24,7 @@ export default function Intro() {
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80vw] h-32 bg-gradient-to-r from-indigo-200/30 via-pink-200/20 to-purple-200/30 blur-2xl rounded-full" />
       </div>
+
       {/* Profile Image */}
       <div className="flex justify-center relative z-10">
         <motion.div
@@ -45,19 +46,18 @@ export default function Intro() {
         </motion.div>
       </div>
 
-      {/* Heading */}
+      {/* Hero Heading */}
       <motion.h1
         className="mt-8 text-3xl sm:text-4xl font-bold leading-snug tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow dark:drop-shadow-lg"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Hi, I'm <span className="font-extrabold">Coste Ionut</span>.<br />A Full
-        Stack Developer (MERN) with{" "}
-        <span className="font-extrabold">2 years and 10 months</span> of
-        experience building{" "}
-        <span className="italic">modern websites & apps</span> using{" "}
-        <span className="underline">React, Node, and TypeScript</span>.
+        Hi, I’m <span className="font-extrabold">Coste Ionut</span> — a{" "}
+        <span className="font-semibold text-indigo-600">Full-Stack Developer (MERN)</span>{" "}
+        with nearly <span className="font-extrabold">3 years of experience</span>{" "}
+        crafting <span className="italic">sleek, high-performing web apps</span> with{" "}
+        <span className="underline">React, Node.js, and TypeScript</span>.
       </motion.h1>
 
       {/* Buttons and Links */}
@@ -84,8 +84,7 @@ export default function Intro() {
           download
           className="group bg-white/80 dark:bg-white/10 border border-gray-300 dark:border-gray-700 px-6 py-3 rounded-full hover:bg-gray-100 dark:hover:bg-white/20 text-gray-800 dark:text-gray-100 inline-flex items-center gap-2 transition focus:scale-105 active:scale-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
         >
-          Download CV{" "}
-          <HiDownload className="group-hover:translate-y-1 transition" />
+          Download CV <HiDownload className="group-hover:translate-y-1 transition" />
         </a>
 
         <a
