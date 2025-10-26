@@ -37,16 +37,16 @@ export default function About() {
       >
         Hi there 👋 I’m a{" "}
         <span className="font-semibold text-indigo-600">
-          Frontend Web Developer
+          Full Stack Web Developer
         </span>{" "}
         with{" "}
         <span className="font-semibold text-indigo-600">
-          2 years and 10 months of experience
+          3 years of experience
         </span>{" "}
         turning ideas into beautiful, responsive, and high-performing web
         interfaces. I love bringing designs to life with{" "}
         <span className="text-gray-900 dark:text-white">
-          HTML, CSS, JavaScript, React.js, and Node.js
+          HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB
         </span>
         , while keeping every detail clean and user-focused.
       </motion.p>
@@ -59,7 +59,7 @@ export default function About() {
         transition={{ delay: 0.4 }}
       >
         Over the years, I’ve built several personal projects, explored{" "}
-        <span className="text-gray-900 dark:text-white">SQL</span> for backend
+        <span className="text-gray-900 dark:text-white">Next.js, TailwindCSS, Supabase, Vercel</span> for backend
         database design, and strengthened my workflow with{" "}
         <span className="text-gray-900 dark:text-white">Git & GitHub</span> for
         version control.
