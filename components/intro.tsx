@@ -53,11 +53,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Hi, I’m <span className="font-extrabold">Coste Ionut</span> — a{" "}
+        Hi, I’m <span className="font-extrabold">Coste Ionut</span> — {" "}
         <span className="font-semibold text-indigo-600">Full-Stack Developer (MERN)</span>{" "}
-        with nearly <span className="font-extrabold">3 years of experience</span>{" "}
+        with <span className="font-extrabold">3 years of experience</span>{" "}
         crafting <span className="italic">sleek, high-performing web apps</span> with{" "}
-        <span className="underline">React, Node.js, and TypeScript</span>.
+        <span className="underline">React, Node.js, Next.js TypeScript and TailwindCSS</span>.
       </motion.h1>
 
       {/* Buttons and Links */}
