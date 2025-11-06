@@ -35,7 +35,6 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        Hi there 👋 I’m a{" "}
         <span className="font-semibold text-indigo-600">
           Full Stack Web Developer
         </span>{" "}
@@ -59,7 +58,7 @@ export default function About() {
         transition={{ delay: 0.4 }}
       >
         Over the years, I’ve built several personal projects, explored{" "}
-        <span className="text-gray-900 dark:text-white">Next.js, TailwindCSS, Supabase, Vercel</span> for backend
+        <span className="text-gray-900 dark:text-white">Next.js, TailwindCSS, Supabase</span> for backend
         database design, and strengthened my workflow with{" "}
         <span className="text-gray-900 dark:text-white">Git & GitHub</span> for
         version control.
