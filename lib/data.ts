@@ -2,7 +2,6 @@ import project1 from "@/public/projects1.png";
 import project2 from "@/public/projects2.png";
 import project3 from "@/public/projects3.png";
 import project4 from "@/public/projects4.png";
-import project5 from "@/public/projects5.png";
 import project6 from "@/public/projects6.png";
 
 export const links = [
@@ -50,14 +49,6 @@ export const projectsData = [
     ],
     imageUrl: project6,
     link: "https://barbershop-website-chi.vercel.app/",
-  },
-  {
-    title: "MERN Task Manager",
-    description:
-      "A full-stack task management application with user authentication, CRUD functionality, and RESTful API integration. Built using the MERN stack (MongoDB, Express, React, Node.js).",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-    imageUrl: project5,
-    link: "https://mern-task-manager-bh80.onrender.com",
   },
   {
     title: "Modern Saas Website",
