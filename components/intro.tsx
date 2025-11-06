@@ -171,13 +171,13 @@ export default function Intro() {
               <motion.div
                 key={i}
                 whileHover={{ y: -5 }}
-                className="p-4 rounded-xl bg-white/5 dark:bg-slate-800/30 border border-white/10 dark:border-slate-700/50 backdrop-blur-sm"
+                className="p-4 rounded-xl dark:bg-slate-800/30 border border-white/10 dark:border-slate-700/50 backdrop-blur-sm"
               >
                 <stat.icon className="w-5 h-5 text-blue-400 mx-auto mb-2" />
                 <div className="text-xs font-semibold text-gray-300 uppercase tracking-wider">
                   {stat.label}
                 </div>
-                <div className="text-sm font-bold text-white mt-1">
+                <div className="text-sm font-bold mt-1">
                   {stat.value}
                 </div>
               </motion.div>
@@ -219,7 +219,7 @@ export default function Intro() {
               <a
                 href="/CV Resume Full Stack Developer updated.pdf"
                 download
-                className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold bg-white/10 dark:bg-slate-800/50 border-2 border-white/20 dark:border-slate-700/50 text-white hover:bg-white/20 dark:hover:bg-slate-700/50 transition-all duration-300 backdrop-blur-sm"
+                className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold bg-white/10 dark:bg-slate-800/50 border-2 border-white/20 dark:border-slate-700/50 hover:bg-white/20 dark:hover:bg-slate-700/50 transition-all duration-300 backdrop-blur-sm"
               >
                 Download CV
                 <HiDownload className="group-hover:translate-y-1 transition" />
