@@ -145,7 +145,7 @@ export default function Intro() {
                 Crafting Digital Experiences
               </span>
             </h1>
-            <p className="text-gray-300 dark:text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mt-6">
+            <p className=" dark:text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mt-6">
               A passionate{" "}
               <span className="font-semibold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Full-Stack Developer
@@ -174,7 +174,7 @@ export default function Intro() {
                 className="p-4 rounded-xl dark:bg-slate-800/30 border border-white/10 dark:border-slate-700/50 backdrop-blur-sm"
               >
                 <stat.icon className="w-5 h-5 text-blue-400 mx-auto mb-2" />
-                <div className="text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <div className="text-xs font-semibold uppercase tracking-wider">
                   {stat.label}
                 </div>
                 <div className="text-sm font-bold mt-1">
