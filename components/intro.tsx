@@ -37,11 +37,11 @@ export default function Intro() {
           <Image
             src="/profile-picture.jpg"
             alt="Profile Picture of Coste Ionut"
-            width={220}
-            height={220}
+            width={200}
+            height={200}
             quality={95}
             priority
-            className="rounded-full border-white shadow-lg dark:border-gray-700 relative z-10"
+            className="rounded-3xl border-white shadow-lg dark:border-gray-700 relative z-10"
           />
         </motion.div>
       </div>
