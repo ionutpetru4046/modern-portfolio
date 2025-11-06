@@ -147,11 +147,6 @@ export default function About() {
             variants={itemVariants}
             className="text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-gray-200"
           >
-            My mission: land my first developer role where I can{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent font-bold">
-              solve real-world problems
-            </span>
-            , write meaningful code, and continuously push my creative and technical boundaries.
           </motion.p>
         </motion.div>
       </div>
