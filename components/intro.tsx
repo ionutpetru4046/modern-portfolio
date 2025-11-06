@@ -135,7 +135,7 @@ export default function Intro() {
           {/* Hero Heading */}
           <motion.div variants={itemVariants} className="mb-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-4">
-              <span className="block text-white dark:text-white mb-2">
+              <span className="block dark:text-white mb-2">
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
                   Coste Ionut
@@ -161,7 +161,7 @@ export default function Intro() {
           {/* Stats/Skills Pills */}
           <motion.div
             variants={itemVariants}
-            className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-2xl mx-auto"
+            className="grid grid-cols-3 dark:text-white gap-3 sm:gap-4 mb-10 max-w-2xl mx-auto"
           >
             {[
               { icon: Code2, label: "3 Years", value: "Experience" },
