@@ -117,7 +117,7 @@ export default function About() {
             variants={itemVariants}
             className="mb-6 text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-gray-200"
           >
-            Throughout my journey, I've engineered multiple full-stack projects, explored{" "}
+            Throughout my journey, I've developed multiple full-stack projects, explored{" "}
             <span className="font-semibold text-white dark:text-white bg-gradient-to-r from-slate-800 to-slate-700 dark:from-slate-700 dark:to-slate-600 px-2 py-1 rounded-md inline-block">
               Next.js, TailwindCSS, and Supabase
             </span>{" "}

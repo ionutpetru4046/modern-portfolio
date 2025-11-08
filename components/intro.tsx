@@ -149,9 +149,9 @@ export default function Intro() {
               <span className="font-semibold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Full-Stack Developer
               </span>{" "}
-              with 3 years of expertise building high-performance web applications using{" "}
+              with 3 years of experience building high-performance web applications using{" "}
               <span className="font-medium text-white dark:text-white bg-gradient-to-r from-slate-800 to-slate-700 dark:from-slate-700 dark:to-slate-600 px-2 py-1 rounded-md inline-block">
-                React, Node.js, Next.js, TypeScript
+                React, Node.js, Next.js, TypeScript,
               </span>{" "}
               and cutting-edge technologies.
             </p>
