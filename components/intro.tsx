@@ -146,7 +146,6 @@ export default function Intro() {
               </span>
             </h1>
             <p className=" dark:text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mt-6">
-              A passionate{" "}
               <span className="font-semibold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Full-Stack Developer
               </span>{" "}
