@@ -99,7 +99,7 @@ export default function About() {
             className="mb-6 text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-gray-200"
           >
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-bold">
-              Full Stack Web Developer
+              I'm a Full Stack Web Developer
             </span>{" "}
             with{" "}
             <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent font-bold">
