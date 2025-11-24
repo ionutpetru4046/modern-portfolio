@@ -29,14 +29,6 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Mechanic Booking Website",
-    description:
-      "A Full-Stack Booking and service Website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
-    tags: ["React.js", "Node.js", "Express", "MongoDB"],
-    imageUrl: project4,
-    link: "https://mechanic-website-tau.vercel.app/",
-  },
-  {
     title: "Josh’s Turkish Barbers",
     description:
       "A modern barbershop website built for a real client. Fully responsive and animated using Framer Motion, it includes services, gallery, testimonials carousel, and a booking CTA.",
@@ -49,6 +41,14 @@ export const projectsData = [
     ],
     imageUrl: project6,
     link: "https://barbershop-website-chi.vercel.app/",
+  },
+  {
+    title: "Mechanic Booking Website",
+    description:
+      "A Full-Stack Booking and service Website built for a local mechanic shop. It includes an online booking system, service listings, and a secure admin dashboard to manage appointments and customer data.",
+    tags: ["React.js", "Node.js", "Express", "MongoDB"],
+    imageUrl: project4,
+    link: "https://mechanic-website-tau.vercel.app/",
   },
   {
     title: "Modern Saas Website",
